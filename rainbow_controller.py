@@ -34,7 +34,7 @@ class RainbowController(SimpleController):
             self.pixels[self.prev_light % self.num_lights] = self.color_off
             self.prev_light+=1
 
-##Funtion that makes each light a different rainbow color
+##Funtion that makes  each light a different rainbow color
 def wheel(pos):
     if pos<0 or pos > 255:
         red = green = blue = 0
